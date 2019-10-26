@@ -1,8 +1,9 @@
 import 'bootstrap';
 import '../styles/main.scss';
+import cowList from './components/cowList/cowList';
 
 const init = () => {
-  console.log('moo');
+  cowList.buildCows();
 };
 
 init();
